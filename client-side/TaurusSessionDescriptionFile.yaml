@@ -1,0 +1,10 @@
+execution:
+ - executor: jmeter
+   scenario: example
+   concurrency: 16581
+   hold-for: 2m
+scenarios:
+  example:
+    default-address: http://blazedemo.com
+    script: /home/anveshmerugu/Desktop/Anvesh/adithyasystem/helenEvalPro.jmx
+
